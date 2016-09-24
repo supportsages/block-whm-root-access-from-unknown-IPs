@@ -4,7 +4,7 @@ Bash script to restrict the root level WHM access after cross checking it with t
 Download the files to /root/scripts/ location
 
 - Start/Stop the Script
-The script can be started and backgrounded in the following way [ change script_name with the script depending on if iptables  or csf is being used ]
+Change script_name with the script depending on if iptables  or csf is being used:
 # sh /root/scripts/script_name &
 The & will send the process into background.
 - To stop the backgrounded script:
