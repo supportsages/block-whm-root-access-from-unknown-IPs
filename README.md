@@ -3,6 +3,19 @@ Bash script to restrict the root level WHM access after cross checking it with t
 
 Download the files to /root/scripts/ location
 
+Create a file /root/scripts/whm_watch_whitelist in which include all the whitelisted IPs to allow root connections from in one IP/line format
+Eg:
+
+you can use the following formats
+
+123.123.1.2: This IP is allowed.
+
+^111.222: Any IPs begin with 111.222 are allowed.
+
+^222: Any IPs begin with 222 are allowed.
+
+For detailed step by step tutorial, visit the configuration guide to the end.
+
 - Start/Stop the Script
 Change script_name with the script depending on if iptables  or csf is being used:
 
