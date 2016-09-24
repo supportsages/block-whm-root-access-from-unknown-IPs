@@ -5,10 +5,12 @@ Download the files to /root/scripts/ location
 
 - Start/Stop the Script
 Change script_name with the script depending on if iptables  or csf is being used:
-# sh /root/scripts/script_name &
+
+sh /root/scripts/script_name &
 The & will send the process into background.
 - To stop the backgrounded script:
-# sh /root/scripts/script_name kill
+
+sh /root/scripts/script_name kill
 
 Known Bugs & Limitations
 - Need to restart the script to reload IP whitelist modifications.
